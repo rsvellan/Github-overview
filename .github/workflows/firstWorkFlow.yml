@@ -1,4 +1,6 @@
 name: first workflow
+env:
+ WORKFLOW_VAR: "This variable is declared at the workflow level"
 on:
  workflow_dispatch:
 jobs:
